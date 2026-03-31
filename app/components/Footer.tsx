@@ -14,12 +14,12 @@ export default function Footer(): React.JSX.Element {
             improving people&apos;s lives through accessible design, or have a project 
             in mind? Let&apos;s connect.
           </p>
-          <span
+          <a
             href="#"
             className="text-purple-400"
           >
             Mobile No-9274066210
-          </span>
+          </a>
           <br></br>
           <a
             href="mailto:anilshinde0806@gmail.com"
