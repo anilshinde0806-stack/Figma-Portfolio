@@ -14,14 +14,14 @@ const featuredProjects: Project[] = [
     title: "Tata Motors Service Manager Level Training ,Basic",
     description: "Tata Motors Service Manager level training is a structured development program designed to enhance technical expertise, customer service skills, and leadership capabilities of service managers in the automotive service network. The training focuses on vehicle diagnostics, service operations management, team handling, and ensuring high customer satisfaction.",
     link: "https://www.customercare-cv.tatamotors.com/campaigns-and-trainings/learning-centers.aspx#:~:text=Learning%20Centres-,LEARNING%20CENTRES,well%20supported%20in%20remote%20areas.",
-    image: "/projects/project-1 - Copy.png",
+    image: "/projects/project-1.png",
   },
   {
     id: 2,
     title: "Tata Motors Service Manager Level Training,Advanced",
     description: "Tata Motors Service Manager level training is a structured development program designed to enhance technical expertise, customer service skills, and leadership capabilities of service managers in the automotive service network. The training focuses on vehicle diagnostics, service operations management, team handling, and ensuring high customer satisfaction.",
    link: "https://www.customercare-cv.tatamotors.com/campaigns-and-trainings/learning-centers.aspx#:~:text=Learning%20Centres-,LEARNING%20CENTRES,well%20supported%20in%20remote%20areas.",
-    image: "/projects/project-2 - Copy.png",
+    image: "/projects/project-2.png",
   },
 {
     id: 3,
