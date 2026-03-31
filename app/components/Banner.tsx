@@ -75,7 +75,7 @@ export default function Banner(): React.JSX.Element {
                 </div>
               </div>
               <Image
-                src="/assets/me - Copy.png"
+                src="/assets/me.png"
                 alt="Anil Shinde - Automobile Service Manager"
                 width={300}
                 height={300}
