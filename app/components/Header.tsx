@@ -10,7 +10,7 @@ export default function Header(): React.JSX.Element {
             href="/" 
             className="text-2xl font-bold text-white hover:text-purple-400 transition-colors"
           >
-          <Image src="/logo/logo.svg" alt="Logo" width={100} height={100} style={{ width: "auto", height: "auto" }} />
+          <Image src="/logo/logo.svg" alt="Logo" width={100} height={10}  />
           </Link>
           <ul className="flex items-center gap-8 list-none m-0 p-0">
             <li className="m-0 p-0">
@@ -23,7 +23,7 @@ export default function Header(): React.JSX.Element {
             </li>
             <li className="m-0 p-0">
               <Link 
-                href="#about" 
+                href="#about"
                 className="text-white hover:text-purple-400 transition-colors text-base font-normal"
               >
                 About
@@ -34,7 +34,23 @@ export default function Header(): React.JSX.Element {
                 href="#lab" 
                 className="text-white hover:text-purple-400 transition-colors text-base font-normal"
               >
-                Lab
+               Certified By
+              </Link>
+            </li>
+            <li className="m-0 p-0">
+              <Link
+                href="#Achievements"
+                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+              >
+               Achievements
+              </Link>
+            </li>
+            <li className="m-0 p-0">
+              <Link
+                href="#Experience"
+                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+              >
+               Work Experience
               </Link>
             </li>
           </ul>
