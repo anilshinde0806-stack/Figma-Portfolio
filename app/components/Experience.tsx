@@ -11,7 +11,7 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "WebHR - HR Management App",
+    title: "Parth TATA , Godhara - Body Shop Manger",
     description: "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
     icon: "/cards/card-1.png",
   },
