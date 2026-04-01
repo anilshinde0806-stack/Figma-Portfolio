@@ -38,3 +38,12 @@ img {
   height: auto;
   display: block;
 }
+svg {
+  fill: #a855f7;
+  transition: 0.3s;
+}
+
+svg:hover {
+  fill: #c084fc;
+  transform: scale(1.1);
+}
