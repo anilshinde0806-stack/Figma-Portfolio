@@ -15,7 +15,12 @@ const experienceCards: ExperienceCard[] = [
     description: "The search results discuss Volkswagen's goals and strategies (such as excited customers and competitive profitability in their 2017/2019/2023 reports) ",
     icon: "/cards/card-1.png",
   },
-
+{
+    id: 2,
+    title: "Star Performer of The Month Mar -2026 ( TATA Shreeji , Surat)",
+    description: "This is fabulous achievement for me that the new joining organation (Shreeji Automart Pvt Ltd). Highest Labour contributions ",
+    icon: "/cards/card-2.png",
+  },
 ];
 
 export default function Experience(): React.JSX.Element {
@@ -23,7 +28,7 @@ export default function Experience(): React.JSX.Element {
     <section id="Achievements" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl lg:text-5xl font-bold text-white mb-12 text-center">
-          Special Achievements in Automobile Carrier
+          Special Achievements in Automobile Industries
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {experienceCards.map((card) => (

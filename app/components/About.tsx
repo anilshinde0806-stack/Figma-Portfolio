@@ -12,10 +12,10 @@ export default function About(): React.JSX.Element {
           </p>
         </div>
         <Image 
-          src="/assets/illustration.png"
-          alt="Skills"
-          width={800}
-          height={800}
+          src="/assets/illustration3.png"
+          alt="Obtain Skills"
+          width={900}
+          height={500}
           className="object-cover mx-auto"
           style={{ width: "auto", height: "auto" }}
         />

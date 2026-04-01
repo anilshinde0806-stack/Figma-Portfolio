@@ -11,8 +11,8 @@ export default function Home(): React.JSX.Element {
     <main className="min-h-screen bg-[#110720] text-white">
       <Header />
       <Banner />
-      <Experience />
       <About />
+      <Experience />
       <Projects />
       <Achievements />
       <Footer />
