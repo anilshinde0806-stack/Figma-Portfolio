@@ -16,7 +16,7 @@ export default function Header(): React.JSX.Element {
             <li className="m-0 p-0">
               <Link 
                 href="#home" 
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+                className="px-3 py-1 rounded-md text-white hover:bg-purple-500 transition-all duration-300"
               >
                 Home
               </Link>
@@ -24,7 +24,7 @@ export default function Header(): React.JSX.Element {
             <li className="m-0 p-0">
               <Link 
                 href="#about"
-                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+className="px-3 py-1 rounded-md text-white hover:bg-purple-500 transition-all duration-300"
               >
                 About
               </Link>
@@ -59,6 +59,14 @@ export default function Header(): React.JSX.Element {
                 className="text-white hover:text-purple-400 transition-colors text-base font-normal"
               >
                Contact
+              </Link>
+            </li>
+            <li className="m-0 p-0">
+              <Link
+                href="https://drive.google.com/file/d/1NUpoxJaLXTxA9A5AC0J9-VTTtKA_0x-l/view"
+                className="text-white hover:text-purple-400 transition-colors text-base font-normal"
+              >
+               Download-CV
               </Link>
             </li>
           </ul>
