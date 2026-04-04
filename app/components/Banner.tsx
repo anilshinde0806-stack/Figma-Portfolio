@@ -142,7 +142,7 @@ export default function Banner(): React.JSX.Element {
             <span>Currently, I&apos;m a Senior Body Shop Advisor at</span>
             <span className="flex items-center gap-2">
               <Image src="/assets/webhr.webp" alt="WebHR" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
-              <span className="text-blue-400 font-semibold">Shreeji Automart ( TATA Passanger Car Dealer,Surat)(From Mar-26 to Till Date)</span>
+              <span className="text-blue-400 font-semibold">Shreeji Automart ( TATA Passenger Car Dealer,Surat)(From Mar-26 to Till Date)</span>
             </span>
           </p>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
