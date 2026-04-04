@@ -46,7 +46,7 @@ export default function Banner(): React.JSX.Element {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center pt-20 px-6"
+      className="max-container padding-container flex flex-col gap-20 py-10  md:gap-28 lg:py-10 xl:flex-row"
     >
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col lg:flex-row items-center ">
@@ -65,12 +65,8 @@ export default function Banner(): React.JSX.Element {
                     className="absolute top-20 rotate-z-280"
                     style={{ width: "auto", height: "auto" }}
                   />
-                  <div className="absolute">
-                    <p className="text-white text-lg whitespace-nowrap">
-                      Hello! I Am{" "}
-                      <span className="text-purple-400">Anil Shinde</span>
-                    </p>
-                  </div>
+
+
                   <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
                 </div>
               </div>
@@ -105,14 +101,18 @@ export default function Banner(): React.JSX.Element {
                 className="absolute "
                 style={{ left: "-100px", top: "-50px", width: "auto", height: "auto" }}
               />
-              <div style={{ bottom: 40, position: "relative" }}>
+
+              <div className="relative z-20 flex flex-1 justify-center flex-col xl:w-1/2 text-white leading-[3rem]"><div className="flex items-baseline"><img alt="camp"  width="650" height="588"    src="/assets/computer.png" className="absolute top-full mt-2 right-0"/>
                 <p className="text-white text-lg">
-                  Hello! I Am{" "}
-                  <span className="text-purple-400">Anil Shinde</span>
+                  Hello! I Am {"  "}
+                  <span className="text-[#D7A964] text-3xl lg:text-[64px] leading-none">Anil Shinde</span>
                 </p>
               </div>
+              </div>
+              <div className="xl:max-w-[520px]">An Automobile Service Manager</div>
               <div className="absolute -bottom-2 left-8 w-0 h-0 border-l-8 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-white/10"></div>
             </div>
+
             <div className="">
               <p className="text-2xl"> A TeamLeader who </p>
               <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-white leading-tight">
@@ -129,6 +129,7 @@ export default function Banner(): React.JSX.Element {
               <p className="text-md text-white/80">
                 Because if the cover does not impress you what else can?
               </p>
+
             </div>
           </div>
         </div>
