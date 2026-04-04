@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import {ReactNode, useState} from "react";
-import { motion } from "framer-motion";
+
 
 function Button(props: { size: string, onClick: () => void, children: ReactNode }) {
   return null;
