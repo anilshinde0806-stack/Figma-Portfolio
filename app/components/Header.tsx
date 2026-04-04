@@ -22,7 +22,7 @@ export default function Header(): React.JSX.Element {
             href="/" 
             className="text-2xl font-bold text-white hover:text-purple-400 transition-colors"
           >
-          <Image src="/logo/logo2.svg" alt="Logo" width={100} height={10}  />
+          <Image src="/logo/logo2.svg" alt="Logo1" width={100} height={10}  />
           </Link>
           <ul className="flex items-center gap-8 list-none m-0 p-0">
             <li className="m-0 p-0">
