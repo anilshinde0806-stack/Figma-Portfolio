@@ -11,24 +11,17 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "Tata Motors Service Manager Level Training ,Basic",
-    description: "Tata Motors Service Manager level training is a structured development program designed to enhance technical expertise, customer service skills, and leadership capabilities of service managers in the automotive service network. The training focuses on vehicle diagnostics, service operations management, team handling, and ensuring high customer satisfaction.",
-    link: "https://www.customercare-cv.tatamotors.com/campaigns-and-trainings/learning-centers.aspx#:~:text=Learning%20Centres-,LEARNING%20CENTRES,well%20supported%20in%20remote%20areas.",
+    title: "NeuraWeb – Futuristic AI Website Landing Design",
+    description: "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
+    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
     image: "/projects/project-1.png",
   },
   {
     id: 2,
-    title: "Tata Motors Service Manager Level Training,Advanced",
-    description: "Tata Motors Service Manager level training is a structured development program designed to enhance technical expertise, customer service skills, and leadership capabilities of service managers in the automotive service network. The training focuses on vehicle diagnostics, service operations management, team handling, and ensuring high customer satisfaction.",
-   link: "https://www.customercare-cv.tatamotors.com/campaigns-and-trainings/learning-centers.aspx#:~:text=Learning%20Centres-,LEARNING%20CENTRES,well%20supported%20in%20remote%20areas.",
+    title: "Apple Vision Pro – HR Software Design",
+    description: "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
+   link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
     image: "/projects/project-2.png",
-  },
-{
-    id: 3,
-    title: "Volkswagen Service Manager Level Training,Basic",
-    description: "At the Skoda-VW Training acadamy ,Pune. The training was very help to mine Knowledge & Experience of Service Operations,Potential to Develop Management Skills,Product & General Automotive Business Knowledge,Previous Automotive Experience,Customer Handling Skills,",
-   link: "https://www.volkswagen.co.in/en/discover-volkswagen/news/archives/volkswagen-india-continues-its-focus-on-upskilling-learning-development-of-its-people.html",
-    image: "/projects/vwl1.png",
   },
 ];
 
@@ -47,7 +40,7 @@ export default function Projects(): React.JSX.Element {
                 {/* Text Content */}
                 <div className={`${isEven ? "lg:col-start-2" : ""}`}>
                   <p className="text-purple-400 text-lg lg:text-xl mb-2 font-medium">
-                    Certificates
+                    Featured Project
                   </p>
                   <h3 className="text-3xl lg:text-4xl font-bold text-white mb-6">
                     {project.title}

@@ -12,12 +12,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Anil Shinde Automobile Service Manager",
+  title: "Anil Shinde - Automobile Service Manager",
   description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
   keywords: [
     "Anil Shinde",
-    "Software Engineer",
-    "UI/UX Designer",
+    "Service Manger",
+    "Body shop Manager",
     "Frontend Developer",
     "React Developer",
     "Next.js Developer",
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://anilshinde0806.pythoanywhere.com",
-    title: "Anil Shinde- Automobile Service Manager",
-    description: "A self-taughtteam leader at Shreeji Automart ( TATA Passanger Car Service Dealer ). Creating meaningful and delightful digital products.",
+    url: "https://ibiimemon.com",
+    title: "Anil Shinde - Software Engineer & UI/UX Designer",
+    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
     siteName: "Anil Shinde Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anil Shinde- Automobile Service Manager",
-    description: "A self-taughtteam leader at Shreeji Automart ( TATA Passanger Car Service Dealer ).",
+    title: "Anil Shinde - Software Engineer & UI/UX Designer",
+    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
   },
   robots: {
     index: true,
@@ -68,7 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="#" />
+        <link rel="canonical" href="https://ibiimemon.com" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}

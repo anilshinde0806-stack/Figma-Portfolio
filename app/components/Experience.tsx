@@ -11,33 +11,33 @@ interface ExperienceCard {
 const experienceCards: ExperienceCard[] = [
   {
     id: 1,
-    title: "Parth TATA ,Godhara - Body Shop Manager (May-24 to Jan-26)",
-    description: "An Automobile Body Shop Manager oversees daily repair operations, supervises technicians, manages inventory, and handles customer/insurance relations to ensure high-quality repairs, efficiency, and profitability. They focus on achieving production targets, maintaining safety standards, and fostering a productive team environment.   .",
+    title: "Parth TATA , Godhara - Body Shop Manger",
+    description: "WebHR automates all of your company's HR processes such as Recruitment, Onboarding, Payroll, Time & Attendance, Leaves & PTO, Performance, and much more.",
     icon: "/cards/card-1.png",
   },
   {
     id: 2,
-    title: "Stellar  TATA ,Vapi - Service  Manager (Mar-23 to Apr-24)",
-    description: "An Automobile Service Manager oversees daily workshop operations, managing technicians and service advisors to ensure high-quality repairs, profitability, and customer satisfaction. Key duties include scheduling work, managing inventory/parts, implementing service procedures, handling customer inquiries, and ensuring compliance with safety regulations.",
+    title: "WebHR Kiosk - Time Clock Kiosk",
+    description: "WebHR Kiosk is a time clock kiosk that allows you to clock in and out of your work. It is a simple and easy to use app that allows you to clock in and out of your work.",
     icon: "/cards/card-2.png",
   },
   {
     id: 3,
-    title: "Volkswagen ,Vapi Service Manger (Apr-17 to Mar-23)",
-    description: "An Automobile Service Manager oversees daily workshop operations, managing technicians and service advisors to ensure high-quality repairs, profitability, and customer satisfaction. Key duties include scheduling work, managing inventory/parts, implementing service procedures, handling customer inquiries, and ensuring compliance with safety regulations.",
+    title: "Somezing - AI-Powered Agents",
+    description: "Somezing is a AI-Powered Agents to Automate Your Workflows. It is a simple and easy to use app that allows you to automate your workflows.",
     icon: "/cards/card-3.png",
   },
   {
     id: 4,
-    title: "Aakash Wheela Pvt Ltd , Dhule - Service Manager",
-    description: "An Automobile Service Manager oversees daily workshop operations, managing technicians and service advisors to ensure high-quality repairs, profitability, and customer satisfaction. Key duties include scheduling work, managing inventory/parts, implementing service procedures, handling customer inquiries, and ensuring compliance with safety regulations.",
+    title: "FileIT - File Sharing App",
+    description: "FileIT is a file sharing app that allows you to share files with your friends and family. It is a simple and easy to use app that allows you to share files with your friends and family.",
     icon: "/cards/card-4.png",
   },
 ];
 
 export default function Experience(): React.JSX.Element {
   return (
-    <section id="Experience" className="py-20 px-6">
+    <section id="experience" className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl lg:text-5xl font-bold text-white mb-12 text-center">
           Work Experience
@@ -65,7 +65,7 @@ export default function Experience(): React.JSX.Element {
                 {card.description}
               </p>
               <Link
-                href="#"
+                href="https://ibiimemon.com/lab"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:text-purple-300 font-medium text-sm transition-colors inline-block"
